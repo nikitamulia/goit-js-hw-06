@@ -6,7 +6,7 @@ const changeColor = document.querySelector('.change-color')
 
 changeColor.addEventListener('click', Change)
 
-function Change() {
+function change() {
   const background = getRandomHexColor()
   spanColor.textContent = background
   document.body.style.backgroundColor = background
